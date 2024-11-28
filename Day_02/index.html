@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <h2>Hello World</h2>
+    <h3>Hello World</h3>
+    <h4>Hello World</h4>
+    <h5>Hello World</h5>
+    <h6>Hello World</h6>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quibusdam saepe, ab eius ea soluta ex eaque vero tempore reiciendis, molestias inventore, corrupti corporis debitis architecto incidunt dicta quis a!</p>
+    <br>
+    <i>hello</i>
+    <br>
+    <b>hello</b>
+    <br>
+    <u>hello</u>
+    <br>
+    <em>hello</em><!--it provide importance in page by using this-->
+    <strong>hello</strong>
+    <!--it provide importance in page by using this-->
+    <mark>hello</mark>
+    <del>hello</del>
+    H<sub>2</sub>O
+    <br>
+    <ol>
+        <li>sneha</li>
+        <li>shreya</li>
+        <li>shubham</li>
+        <li>rachit</li>
+    </ol>
+    <br>
+    <ul>
+        <li>mango</li>
+        <li>potato</li>
+        <li>spnich</li>
+    </ul>
+    <br>
+    <dl>
+        <dt>fruits</dt>
+        <dd>kiwi</dd>
+        <dd>mango</dd>
+        <dd>star fruit</dd>
+        <dd>guava</dd>
+        <dd>litchi</dd>
+
+    </dl><!--description list--> 
+    <br>
+    <section>
+        <!--table tag-->
+        <table border="1px" cellpadding="4px" cellspacing="4px">
+            <tr>
+                <th>Qualification</th>
+                <th>Year</th>
+                <th>Percentage</th>
+            </tr>
+            <tr>
+                <td>10th</td>
+                <td>2020</td>
+                <td>82%</td>
+            </tr>
+            <tr>
+                <td>12th</td>
+                <td>2022</td>
+                <td>75%</td>
+            </tr>
+            <tr>
+                <td>Graduation</td>
+                <td>2026</td>
+                <td>8.5cgpa</td>
+            </tr>
+
+            <br>
+          
+           
+        </table>
+        <br>
+        <br>
+        <figure>
+            <img src="image.png" alt="music" style="display: block;" width="700px" height="400px">
+            <br>
+            <button onclick="window.location.href='https://open.spotify.com/'">Click</button>
+        
+       </figure>
+     
+      
+    </section>
+    <br>
+    <br>
+    <form action="">
+        <center>
+            <label for ="name">Student Name:</label><input type="text" id="name" name="name">
+            <br>
+            <br>
+            <label for="email">Email: </label><input type="text" id="email" placeholder="enter your email" name="email">
+            <br>
+            <br>
+            <label for="remark">Remark: </label>
+            <textarea name="remark" id="remark" cols="50" rows="4"></textarea>
+            <br>
+            
+        </center>
+    </form>
+    
+        <label for="course" >Course</label>
+        <select id="course"  name="course">
+            <option value="course" disabled selected >Select the course</option>
+            <option value="PCM">PCM</option>
+            <option value="PCB">PCB</option>
+            <option value="Commerce">Commerce</option>
+            <option value="Arts">Arts</option>
+        </select>
+    
+        <br>
+        <br>
+        <label for="gender">Gender:</label><!--Radio button-->
+         <input type="radio" name="r1" id="gender">Male</input> 
+        <input type="radio" name="r1" id="gender">Female</input>
+        <input type="radio" name="r1" id="gender">Other</input>
+        <br>  
+        <br>
+        <label for="hobby">Hobby:</label>
+        <input type="checkbox" name="c1" id="c1"><label for="hobby">Music</label><!--checkbox menu-->
+        <input type="checkbox" name="c1" id="c1"><label for="hobby">Dance</label>
+        <input type="checkbox" name="c1" id="c1"><label for="hobby">Singing</label>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+   
+    <section>
+        <video controls height="300px">
+            <source src="nature_b.mp4" style="display: block;"  >
+        </video>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MFLVmAE4cqg?si=b5tc_u96mcUZY8Cp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <audio controls>
+        <source src="">
+    </audio>
+
+    <!--SVG stands for Scalable Vector Graphics
+      SVG is used to define vector-based graphics for the Web
+     SVG defines graphics in XML format
+     Each element and attribute in SVG files can be animated
+     SVG is a W3C recommendation
+     SVG integrates with other standards, such as CSS, DOM, XSL and JavaScript-->
+     
+     
+      <svg height="200" width="200">
+      <!-- Circle for the face -->
+      <circle cx="100" cy="100" r="80" stroke="black" stroke-width="3" fill="pink" />
+      
+      <!-- Left eye -->
+      <circle cx="70" cy="80" r="10" stroke="black" stroke-width="2" fill="black" />
+      
+      <!-- Right eye -->
+      <circle cx="130" cy="80" r="10" stroke="black" stroke-width="2" fill="black" />
+      
+      <!-- Smile -->
+      <path d="M 60 120 Q 100 160 140 120" stroke="black" stroke-width="3" fill="transparent" />
+    </svg>
+
+</body>
+</html>
